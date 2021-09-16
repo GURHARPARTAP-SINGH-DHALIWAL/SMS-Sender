@@ -8,3 +8,9 @@ textarea{
     margin-top: 15px;
 
 }
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1582634424802-b4a94fcfbce6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG9zaG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
