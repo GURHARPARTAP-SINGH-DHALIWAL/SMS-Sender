@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/2ebd0c66-4189-4f75-bc3d-0d9dc9e87ec2/Image/4f32c01353f9bc7d47f2e8b4e8ecaf7f/sms.jpg" type="image/x-icon">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <link rel="stylesheet" href="css/style.css">
+    <title>SMS-I-NATOR</title>
+</head>
+<body>
+      <form action="" class="card center" id="form">
+          <div class="row"><h3>Send SMS</h3></div>
+          <div class="row">
+              <label for="number" class="lead left"><b>Number : </b></label>
+              <input type="tel" name="number" placeholder="Yaar Faaltu mat bhejna paise katt te hain">
+
+          </div>
+
+          <div class="row">
+              <label for="message" class="left"><b>Message :</b></label>
+             <textarea name="message" id="message" cols="30" rows="10" placeholder="Sabhayak"></textarea>
+          </div>
+          <div class="result  row">Message Sent!</div>
+          <br>
+          <div class="row">
+              <button class="btn">Send</button>
+          </div>
+      </form>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/main.js"></script>
+</html>

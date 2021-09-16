@@ -1,0 +1,33 @@
+{
+  "name": "sms-sender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GURHARPARTAP-SINGH-DHALIWAL/send-i-nator.git"
+  },
+  "keywords": [
+    "Hey",
+    "send",
+    "some",
+    "text"
+  ],
+  "author": "GSD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GURHARPARTAP-SINGH-DHALIWAL/send-i-nator/issues"
+  },
+  "homepage": "https://github.com/GURHARPARTAP-SINGH-DHALIWAL/send-i-nator#readme",
+  "dependencies": {
+    "@vonage/server-sdk": "^2.10.10",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nexmo": "^2.9.1",
+    "nodemon": "^2.0.12",
+    "socket.io": "^4.2.0"
+  }
+}
